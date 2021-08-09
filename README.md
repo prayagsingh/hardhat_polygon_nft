@@ -1,5 +1,5 @@
 # Hardhat-Polygon-Nft example
-An Nft example using hardhat and Polygon blockchain
+An Nft example using Hardhat, Polygon blockchain and OpenZeppelin.
 
 
 **Commands to create a new project using Hardhat**
