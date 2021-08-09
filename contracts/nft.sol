@@ -24,7 +24,7 @@ contract Nfts is ERC721URIStorage, Ownable {
   /**
     @dev miniting NFT
    */
-  function mint(address recepient, string memory _tokenURI) public returns (uint) {
+  function mint(address recepient, string memory _tokenURI) public onlyOwner returns (uint) {
 
     _tokenIds.increment();
     uint256 newItemId = _tokenIds.current();
