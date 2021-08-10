@@ -36,6 +36,14 @@ An Nft example using Hardhat, Polygon blockchain and OpenZeppelin.
 
 Example: `npx hardhat run scripts/deploy.js --network polygon_test`
 
-**Reference:** 
+**References:** 
 
 Hardhat [docs](https://hardhat.org/tutorial/setting-up-the-environment.html)
+
+OpenZeppelin [docs v4.x](https://docs.openzeppelin.com/contracts/4.x/erc721)
+
+Medium [Article](https://medium.com/pinata/how-to-create-layer-2-nfts-with-polygon-and-ipfs-aef998ff8ef2)
+
+**Credits**
+
+Special thanks to [Justin Hunter](https://polluterofminds.medium.com/) for creating a detailed medium article.
