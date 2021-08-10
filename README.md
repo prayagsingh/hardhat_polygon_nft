@@ -4,19 +4,23 @@ An Nft example using Hardhat, Polygon blockchain and OpenZeppelin.
 
 **Commands to create a new project using Hardhat**
 
-`mkdir hardhat-example3-nfts`
-`cd hardhat-example3-nfts`
-`npm init --yes`
-`npm install --save-dev hardhat`
-`npx hardhat`
+1. `mkdir hardhat-example3-nfts`
 
-**NOTE:** create a `.env` file and add the private-key and rpc api-key in this file. Please add `.env` file to `.gitignore` as well.
+2. `cd hardhat-example3-nfts`
 
-we will use above keys in hardhat.config.js file. 
+3. `npm init --yes`
 
-`npm i dotenv`
+4. `npm install --save-dev hardhat`
 
-If using openzeppelin then `npm install @openzeppelin/contracts` command to add the packages.
+5. `npx hardhat`
+
+6. Create an `.env` file and add the private-key and rpc api-key in this file. we require these keys for configuring hardhat.config.js file.
+
+7. Please add this `.env` file to `.gitignore` to avoid putting private information to github.
+
+8. Install `npm i dotenv` package to use the environment variables from `.env` file
+
+9. If using openzeppelin then `npm install @openzeppelin/contracts` command to add the packages.
 
 **Compile Project**
 
@@ -31,4 +35,6 @@ If using openzeppelin then `npm install @openzeppelin/contracts` command to add 
 `npx hardhat run scripts/deploy.js --network <network_name from hardhat.config.js file>`
 for eg: `npx hardhat run scripts/deploy.js --network polygon_test`
 
-**Reference:** Hardhat [docs]("https://hardhat.org/tutorial/setting-up-the-environment.html")
+**Reference:** 
+
+Hardhat [docs](https://hardhat.org/tutorial/setting-up-the-environment.html)
