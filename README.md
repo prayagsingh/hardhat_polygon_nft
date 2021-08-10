@@ -33,7 +33,8 @@ An Nft example using Hardhat, Polygon blockchain and OpenZeppelin.
 **Deploy Project**
 
 `npx hardhat run scripts/deploy.js --network <network_name from hardhat.config.js file>`
-for eg: `npx hardhat run scripts/deploy.js --network polygon_test`
+
+Example: `npx hardhat run scripts/deploy.js --network polygon_test`
 
 **Reference:** 
 
