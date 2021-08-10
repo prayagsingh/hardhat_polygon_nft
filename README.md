@@ -4,9 +4,9 @@ An Nft example using Hardhat, Polygon blockchain and OpenZeppelin.
 
 **Commands to create a new project using Hardhat**
 
-1. `mkdir hardhat-example3-nfts`
+1. `mkdir hardhat_polygon_nft`
 
-2. `cd hardhat-example3-nfts`
+2. `cd hardhat_polygon_nft`
 
 3. `npm init --yes`
 
